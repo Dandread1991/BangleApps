@@ -1,0 +1,12 @@
+{ "id": "rollerball",
+  "name": "My Rolling Ball App",
+  "shortName":"Roller Ball",
+  "icon": "app.png",
+  "version":"0.01",
+  "description": "First version",
+  "tags": "",
+  "storage": [
+    {"name":"rollerball.app.js","url":"app.js"},
+    {"name":"rollerball.img","url":"app-icon.js","evaluate":true}
+  ]
+}
