@@ -26,9 +26,9 @@ function drawScreen () {
   "jit"
   "ram" 
   
- //  let acc=Bangle.getAccel(); 
-//   x=acc.x;
- //  y=acc.y;
+   let acc=Bangle.getAccel(); 
+   x=acc.x;
+   y=acc.y;
   
   
   
