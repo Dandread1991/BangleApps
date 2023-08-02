@@ -1,19 +1,15 @@
 {
-  "id": "presentor",
-  "name": "Presentor",
-  "version": "0.08",
-  "description": "Use your Bangle to present!",
+  "id": "mousetestt",
+  "name": "Mouse",
+  "version": "0.01",
+  "description": "Test mouse HID",
   "icon": "app.png",
   "type": "app",
   "tags": "tool,bluetooth",
-  "interface": "interface.html",
-  "readme":"README.md",
   "supports": ["BANGLEJS", "BANGLEJS2"],
   "allow_emulator": true,
   "storage": [
-    {"name":"presentor.app.js","url":"app.js"},
-    {"name":"presentor.img","url":"app-icon.js","evaluate":true}
-  ], "data": [
-    {"name":"presentor.json","url":"settings.json"}
-  ]
+    {"name":"mousetest.app.js","url":"app.js"},
+    {"name":"mousetest.img","url":"app-icon.js","evaluate":true}
+  ], 
 }
