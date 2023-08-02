@@ -1,10 +1,10 @@
 let mouse = require("ble_hid_mouse");
 let HIDenabled = true;
-
-NRF.setServices(undefined, { hid : mouse.report });
 NRF.on('HID', function() {
   HIDenabled = true;
 });
+NRF.setServices(undefined, { hid : mouse.report });
+
 function btnPressed() {
   try {mouse.send(0,0,mouse.BUTTONS.LEFT); // X movement, Y movement, buttons pressed
       }
