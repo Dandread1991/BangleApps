@@ -1,8 +1,6 @@
-let mouse = require("ble_hid_mouse");
-let HIDenabled = true;
-NRF.on('HID', function() {
-  HIDenabled = true;
-});
+let mouse = require("ble_hid_combo");
+
+
 NRF.setServices(undefined, { hid : mouse.report });
 
 function btnPressed() {
